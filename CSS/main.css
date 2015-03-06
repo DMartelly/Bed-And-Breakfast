@@ -1,0 +1,565 @@
+/* Main */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+}
+
+body {
+	background-image: url('yellow_bg.png');
+	background-repeat: repeat;
+	width: auto;
+}
+
+img {
+	display: block;
+}
+
+hr {
+	background-color: #d4d4d4;
+	border-width: 0;
+	color: #d4d4d4;
+	height: 2px;
+	line-height: 0;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 62px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 32px;
+	font-family: Arial, serif;
+}
+
+h4 {
+	font-size: 26px;
+	font-family: 'Cardo', serif;
+}
+
+p {
+	font-size: 18px;
+	font-family: Calibri, Times, serif;
+}
+
+a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+nav {
+	background-color: #2F2020;
+}
+
+nav ul {
+	list-style-type: none;
+	height: 39px;
+	text-align: center;
+}
+
+nav > ul > li {
+	display: inline-block;
+	position: relative;
+	margin: 0px 5px;
+	border: 1px solid #000000;
+	font-family: Times, serif;
+	color: #ffffff;
+	padding: 9px 6px;
+	background-color: #202020;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 9px 0px;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 39px;
+	left: 0px;
+}
+
+nav ul li ul > li {
+	padding: 9px 20px;
+	background-color: #202020;
+	border: 1px solid #000000;
+}
+
+nav ul li:hover > ul {
+	display: inline-block;
+}
+
+footer {
+	border-top: 4px solid #000000;
+	height: 50px;
+	margin: 20px 0px;
+}
+
+footer p {
+	font-size: 16px;
+}
+
+/* IDs */
+#book_now_button {
+	margin-left: auto;
+	background: darkred;
+	padding: 5px 8px;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+#top_bar {
+	background-image: url('dark_yellow_bg.png');
+	background-repeat: repeat;
+	width: 100%;
+	height: 6px;
+	margin-bottom: 20px;
+}
+
+#wrapper {
+	text-align: center;
+	margin: 0px auto;
+	width: 950px;
+}
+
+#top {
+	text-align: center;
+	width: 950px;
+	margin-bottom: 20px;
+	background-color: #edf9fc;
+	box-shadow: 1px 1px 3px 1px #CCC;
+}
+
+#top p {
+	font-size: 16px;
+}
+
+#top div > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#heading {
+	margin: 15px auto;
+	margin-bottom: 5px;
+	z-index: -1;
+}
+
+#home {
+	box-shadow: 1px 1px 3px 1px #CCC;
+	padding-top: 35px;
+	text-align: center;
+	background-color: #edf9fc;
+}
+
+#home > h2 {
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+	font-family: "Adobe Caslon Pro";
+}
+
+#nav {
+	border-bottom: 4px solid #000000;
+}
+
+#book_now {
+	width: 80%;
+	border-radius: 10px;
+	margin: 0px 15px;
+}
+
+#book_now h3 {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#book_now div {
+	padding-bottom: 8px;
+}
+
+#submit {
+	margin: auto;
+	height: 25px;
+	width: 70px;
+	background-color: darkred;
+	color: #FFFFFF;
+	border-radius: 3px;
+}
+
+#room_main {
+	margin: 0px auto;
+}
+
+#room_main img {
+	height: 300px;
+	width: 400px;
+	margin: 5px 5px 30px 5px;
+}
+#room_main h3 {
+	font-size: 19px;
+}
+
+#room_main div > div {
+	display: inline-block;
+}
+
+#room_list {
+	margin-top: 400px;
+}
+
+#pack {
+	width: 100%;
+}
+
+#pack li {
+	list-style-type: none;
+}
+
+#attractions {
+	width: 95%;
+}
+
+#attractions_list {
+	margin-bottom: 50px;
+}
+
+#restaurant_list {
+	margin-bottom: 50px;
+}
+
+#slidewindow {
+	margin-bottom: 30px;
+	width: 100%;
+	display: inline-block;
+}
+
+#slidewindow img {
+	height: 500px;
+	width: 950px;
+}
+
+#slidelist {
+
+}
+
+#slidelist > ul {
+	padding-left: 30px;
+	margin: 0;
+}
+
+#slidelist > ul > li {
+	height: 35px;
+	text-align: left;
+	list-style-image: url('list_item.png');
+	list-style-position: inside;
+}
+
+#guestwords {
+
+}
+
+#footer {
+	display: inline-block;
+	width: 950px;
+	margin-top: 20px;
+	background-color: #463030;
+	padding: 10px 0px;
+}
+
+#footer div {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+#footer p {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer li {
+	display: inline-block;
+}
+
+#footer_bottom ul {
+	list-style-type: none;
+}
+
+#footer_bottom li {
+	display: inline-block;
+	font-size: 10px;
+}
+
+/* Class */
+.price {
+	color: red
+}
+
+.ssplit {
+	height: 30px;
+	/*border-bottom: 2px solid #d6d5ba;*/
+}
+
+.box {
+	width: 100%;
+}
+
+.half_box {
+	width: 45%;
+	padding: 25px 2.2% 30px 2.2%;
+	display: inline-block;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.half_box h4 {
+	border-bottom: #d4d4d4 1px solid;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+
+.input {
+	height: 35px;
+	width: 400px;
+}
+
+.input_date {
+	height: 35px;
+	width: 198px;
+}
+
+.room {
+	width: 93%;
+	margin: 40px auto;
+	padding: 10px 5px;
+	background-color: #cbe4ea;
+	border-radius: 5px;
+}
+
+.room_title {
+	width: 100%;
+	text-align: left;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 10px;
+}
+
+.room_title p {
+	text-align: right;
+	display: inline-block;
+}
+
+.room_img {
+	margin: 8px 0px;
+	max-height: 300px;
+}
+
+.room_img img {
+	display: inline-block;
+	max-width: 45%;
+	height: 300px;
+	box-shadow: 1px 1px 2px 1px #AAA;
+	border-radius: 3px;
+}
+
+.room_desc {
+	width: 65%;
+	text-align: left;
+	background-color: #9ec0c9;
+	border-radius: 6px;
+	padding: 2px;
+	border: 0px solid black;
+	display: inline-block;
+}
+
+.room_desc_list {
+	width: 30%;
+	font-size: 15px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #9ec0c9;
+	border-radius: 6px;
+	padding: 2px;
+	display: inline-block;
+}
+
+.room_desc_list li {
+	list-style-type: none;
+	font-family: "Engravers MT";
+}
+
+.serv {
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.serv_pic {
+	width: 48%;
+}
+
+.serv_desc {
+	height: 298px;
+	width: 48%;
+	border-left: 1px solid black;
+	vertical-align: top;
+	text-align: left;
+}
+
+.serv div {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.att {
+	border-top: 3px solid darkblue;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.attDesc {
+	width: 48%;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.attPic {
+	width: 48%;
+	display: inline-block;
+}
+
+.attPic img {
+	max-height: 450px;
+	width: 100%;
+}
+
+.rest {
+	border-top: 3px solid darkred;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.restDesc {
+	width: 48%;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.restDesc a {
+	color: darkred;
+}
+
+.restPic {
+	width: 48%;
+	display: inline-block;
+}
+
+.restPic img {
+	max-height: 450px;
+	width: 100%;
+}
+
+.icon {
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	text-align: right;
+	margin: 0px 3px;
+}
+
+.slide {
+	width: 400px;
+	height: 250px;
+}
+
+.form {
+	text-align: left;
+	background-color: #ddd;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.field {
+	margin: 40px 0px;
+}
+
+.field * {
+	font-size: 22px;
+}
+
+.booking_input {
+	margin: 40px 0px;
+}
+
+/* bjqs */
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: none;
+}
+li.bjqs-slide {
+	position: absolute;
+	display: none;
+}
+ul.bjqs-controls {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+ul.bjqs-controls.v-centered li a {
+	position: absolute;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	right: 0;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	left: 0;
+}
+ol.bjqs-markers {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+ol.bjqs-markers.h-centered {
+	text-align: center;
+}
+ol.bjqs-markers li {
+	display: inline;
+}
+ol.bjqs-markers li a {
+	display: inline-block;
+	font-size: 0px;
+}
+p.bjqs-caption {
+	display: block;
+	width: 96%;
+	margin: 0;
+	padding: 2%;
+	position: absolute;
+	bottom: 0;
+	font-size: 26px;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
