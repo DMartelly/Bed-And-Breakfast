@@ -1,13 +1,12 @@
 /* Main */
 * {
-	margin: 0px;
-	padding: 0px;
-	border: 0px none;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
 }
 
 body {
-	background-image: url('yellow_bg.png');
-	background-repeat: repeat;
+	background: url('yellow_bg.png') repeat;
 	width: auto;
 }
 
@@ -69,7 +68,7 @@ nav ul {
 nav > ul > li {
 	display: inline-block;
 	position: relative;
-	margin: 0px 5px;
+	margin: 0 5px;
 	border: 1px solid #000000;
 	font-family: Times, serif;
 	color: #ffffff;
@@ -80,14 +79,14 @@ nav > ul > li {
 nav ul li a {
 	text-decoration: none;
 	color: #FFFFFF;
-	padding: 9px 0px;
+	padding: 9px 0;
 }
 
 nav ul ul {
 	display: none;
 	position: absolute;
 	top: 39px;
-	left: 0px;
+	left: 0;
 }
 
 nav ul li ul > li {
@@ -103,7 +102,7 @@ nav ul li:hover > ul {
 footer {
 	border-top: 4px solid #000000;
 	height: 50px;
-	margin: 20px 0px;
+	margin: 20px 0;
 }
 
 footer p {
@@ -120,8 +119,7 @@ footer p {
 }
 
 #top_bar {
-	background-image: url('dark_yellow_bg.png');
-	background-repeat: repeat;
+	background: url('dark_yellow_bg.png') repeat;
 	width: 100%;
 	height: 6px;
 	margin-bottom: 20px;
@@ -129,7 +127,7 @@ footer p {
 
 #wrapper {
 	text-align: center;
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 950px;
 }
 
@@ -151,22 +149,21 @@ footer p {
 }
 
 #heading {
-	margin: 15px auto;
-	margin-bottom: 5px;
+	margin: 15px auto 5px;
 	z-index: -1;
 }
 
-#home {
+#homepage {
 	box-shadow: 1px 1px 3px 1px #CCC;
 	padding-top: 35px;
 	text-align: center;
 	background-color: #edf9fc;
 }
 
-#home > h2 {
+#homepage > h2 {
 	margin-bottom: 15px;
 	border-bottom: 1px solid black;
-	font-family: "Adobe Caslon Pro";
+	font-family: "Adobe Caslon Pro", serif;
 }
 
 #nav {
@@ -176,7 +173,7 @@ footer p {
 #book_now {
 	width: 80%;
 	border-radius: 10px;
-	margin: 0px 15px;
+	margin: 0 15px;
 }
 
 #book_now h3 {
@@ -198,7 +195,7 @@ footer p {
 }
 
 #room_main {
-	margin: 0px auto;
+	margin: 0 auto;
 }
 
 #room_main img {
@@ -261,8 +258,7 @@ footer p {
 #slidelist > ul > li {
 	height: 35px;
 	text-align: left;
-	list-style-image: url('list_item.png');
-	list-style-position: inside;
+	list-style: inside url('list_item.png');
 }
 
 #guestwords {
@@ -274,12 +270,12 @@ footer p {
 	width: 950px;
 	margin-top: 20px;
 	background-color: #463030;
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 
 #footer div {
 	display: inline-block;
-	margin: 0px 10px;
+	margin: 0 10px;
 }
 
 #footer p {
@@ -363,7 +359,7 @@ footer p {
 }
 
 .room_img {
-	margin: 8px 0px;
+	margin: 8px 0;
 	max-height: 300px;
 }
 
@@ -381,7 +377,7 @@ footer p {
 	background-color: #9ec0c9;
 	border-radius: 6px;
 	padding: 2px;
-	border: 0px solid black;
+	border: 0 solid black;
 	display: inline-block;
 }
 
@@ -398,7 +394,7 @@ footer p {
 
 .room_desc_list li {
 	list-style-type: none;
-	font-family: "Engravers MT";
+	font-family: "Engravers MT", serif;
 }
 
 .serv {
@@ -478,7 +474,7 @@ footer p {
 	height: 26px;
 	display: inline-block;
 	text-align: right;
-	margin: 0px 3px;
+	margin: 0 3px;
 }
 
 .slide {
@@ -494,7 +490,7 @@ footer p {
 }
 
 .field {
-	margin: 40px 0px;
+	margin: 40px 0;
 }
 
 .field * {
@@ -502,7 +498,7 @@ footer p {
 }
 
 .booking_input {
-	margin: 40px 0px;
+	margin: 40px 0;
 }
 
 /* bjqs */
@@ -550,7 +546,7 @@ ol.bjqs-markers li {
 }
 ol.bjqs-markers li a {
 	display: inline-block;
-	font-size: 0px;
+	font-size: 0;
 }
 p.bjqs-caption {
 	display: block;
