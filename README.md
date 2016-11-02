@@ -1,5 +1,5 @@
-#Title
+#Bed-And-Breakfast
 
-##2nd Header
-- list1
-- list2
+##Possible plans
+- Convert to node.js in the future
+- Use MongoDB for database of appontments
